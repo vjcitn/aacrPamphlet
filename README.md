@@ -14,3 +14,4 @@ buildPancanSE example
     - You run the command experiments(blcaMAE)$meth@seed@seed@filepath@bqconn@billing = "xyz-abc-def" # USE YOUR CODE
     - You verify that assay(experiments(blcaMAE)$meth) retrieves some data from BigQuery
     - You save(blcaMAE, file="blcaMAE.rda)
+    - render("ccl.Rmd")
