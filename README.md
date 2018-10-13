@@ -18,3 +18,8 @@ buildPancanSE example
     - You verify that assay(experiments(blcaMAE)$meth) retrieves some data from BigQuery
     - You save(blcaMAE, file="blcaMAE.rda)
     - render("ccl.Rmd")
+
+- The program panel.R will generate the multiboxplot panel.  It likewise
+requires that BiocOncoTK::pancan_BQ(...) succeed meaningfully, either
+by picking up a value for CGC_BILLING from the environment, or having
+a billing code supplied as `billing` parameter
